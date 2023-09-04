@@ -1,0 +1,73 @@
+/* google font link  */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;900&display=swap");
+/* shared style  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+:root {
+  --primary-color: #ff42a5;
+  --secondary-color: #0B0223;
+  --text-color:#3C354F;
+  --gradient-color: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+}
+
+/* nav style start */
+nav {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+nav .logo a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.logo img {
+  width: 100%;
+  margin-right: 20px;
+}
+.logo h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.logo span{
+    color: var(--primary-color);
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+nav ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: flex;
+    align-items: center;
+}
+nav ul li a{
+    margin-left: 15px;
+}
+nav ul li:nth-child(3){
+  border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+padding: 5px 10px;
+}
+
+/* nav style end */
