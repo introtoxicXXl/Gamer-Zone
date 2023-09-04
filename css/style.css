@@ -71,3 +71,62 @@ padding: 5px 10px;
 }
 
 /* nav style end */
+
+
+
+
+
+
+
+
+
+
+
+/* responsive for mobile device */
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    .logo{
+        margin-bottom: 20px;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav ul a{
+        margin-bottom: 20px;
+    }
+    .social{
+        margin: 0 10px;
+    }
+}
+
+/* responsive for medium device */
+@media screen and (min-width:576px) and (max-width:760px){
+    nav{
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    .logo{
+        margin-bottom: 20px;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav ul a{
+        margin-bottom: 20px;
+    }
+    .social{
+        margin: 0 10px;
+    }
+}
+/* responsive for tablet device */
+@media screen and (min-width:760px) and (max-width:992px){
+    nav{
+        padding: 10px 30px;
+    }
+    nav ul li{
+        margin-right: 15px;
+    }
+}
