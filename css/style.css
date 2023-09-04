@@ -18,9 +18,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.text-color {
+.title-color {
   color: var(--secondary-color);
 }
+.text-color{
+    color: var(--text-color);
+}
+
 .center{
     text-align: center;
 }
@@ -168,7 +172,17 @@ nav ul li:nth-child(3) {
 }
 /* gamer section style end */
 
-
+/* online game style start */
+.online-game-container{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 20px;
+margin-top: 30px;
+}
+.online-game-container span img{
+    width: 100%;
+}
+/* online game style end */
 
 
 
@@ -242,6 +256,15 @@ nav ul li:nth-child(3) {
   }
   .gamer-content{
     text-align: center;
+  }
+  .online-game-container{
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 30px;
+  }
+ 
+  .online-game-container span p{
+    margin-top: 20px;
   }
 }
 
