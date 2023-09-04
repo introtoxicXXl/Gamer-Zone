@@ -210,8 +210,8 @@ nav ul li:nth-child(3) {
   opacity: 0;
   transition: 0.3s all ease;
 }
-.card-body:hover{
-    opacity: 1;
+.card-body:hover {
+  opacity: 1;
 }
 .card-body img {
   width: 48px;
@@ -220,12 +220,44 @@ nav ul li:nth-child(3) {
 }
 /* online game style end */
 
+/* online play style start */
+.online-play-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  overflow: hidden;
+}
+.online-play-img-container {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.online-play-img-container > div {
+  position: relative;
+}
+.bigimg {
+  width: calc(100% - 20%);
+}
+.smallimg {
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  bottom: -50px;
+  right: 10%;
+}
+.online-play-content {
+  flex-basis: 50%;
+}
+/* online play style end */
+
 /* responsive for mobile device */
 @media screen and (max-width: 767px) {
   .container {
     padding: 10px;
   }
-  .center{
+  .center {
     margin-top: 15px;
   }
   .btn-primary,
@@ -281,6 +313,19 @@ nav ul li:nth-child(3) {
 
   .online-game-container span p {
     margin-top: 20px;
+  }
+  .online-play-section{
+    flex-direction: column;
+    padding: 100px 0;
+  }
+  .bigimg{
+    width: calc(100% - 20%);
+  }
+  .smallimg{
+    width: 120px;
+    height: 120px;
+    bottom: -10%;
+    right: 10%;
   }
 }
 
@@ -345,5 +390,14 @@ nav ul li:nth-child(3) {
   }
   .online-game-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .bigimg{
+    width: calc(100% - 20%);
+  }
+  .smallimg{
+    width: 120px;
+    height: 120px;
+    bottom: -10%;
+    right: 10%;
   }
 }
