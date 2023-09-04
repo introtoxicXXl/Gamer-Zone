@@ -21,6 +21,9 @@
 .text-color {
   color: var(--secondary-color);
 }
+.center{
+    text-align: center;
+}
 .container {
   max-width: 1440px;
   padding: 10px 100px;
@@ -46,7 +49,6 @@
 .text-title{
     font-size: 3rem;
     font-weight: 700;
-    text-align: right;
 }
 
 /* nav style start */
