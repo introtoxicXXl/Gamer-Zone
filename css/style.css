@@ -257,6 +257,7 @@ nav ul li:nth-child(3) {
   background-color: var(--primary-color);
   display: flex;
   justify-content: space-between;
+  padding: 30px 100px;
 }
 .career-content {
   flex-basis: 50%;
@@ -267,7 +268,7 @@ nav ul li:nth-child(3) {
   font-weight: 700;
   margin-bottom: 20px;
 }
-.career-discribtion {
+.career-description {
   color: #fff;
   font-size: 18px;
   font-weight: 400;
@@ -385,7 +386,7 @@ list-style: none;
   .career-section{
     flex-direction: column-reverse;
   }
-  .career-discribtion{
+  .career-description{
     font-size: 12px;
   }
   .career-content ul li{
@@ -471,7 +472,7 @@ list-style: none;
   .career-section{
     flex-direction: column-reverse;
   }
-  .career-discribtion{
+  .career-description{
     font-size: 1.25rem;
   }
   .career-content ul li{
