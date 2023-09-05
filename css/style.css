@@ -368,7 +368,7 @@ nav ul li:nth-child(3) {
 
 /* career style end */
 /* game card style start */
-.game-card-section{
+.game-card-section {
   margin: 30px auto;
 
   display: flex;
@@ -376,7 +376,8 @@ nav ul li:nth-child(3) {
   flex-wrap: wrap;
   gap: 30px;
 }
-.game-card{
+
+.game-card {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -384,13 +385,16 @@ nav ul li:nth-child(3) {
   border-radius: 48px;
   cursor: pointer;
 }
-.game-card:hover{
+
+.game-card:hover {
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
 }
-.game-card img{
+
+.game-card img {
   margin-right: 15px;
 }
+
 /* game card style end */
 
 /* footer style start */
@@ -422,7 +426,8 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.footer-nav ul a{
+
+.footer-nav ul a {
   text-decoration: none;
 }
 
@@ -430,52 +435,42 @@ footer {
   list-style: none;
   padding: 15px 20px;
 }
-.social-icon{
+
+.social-icon {
   margin-bottom: 20px;
 }
-.social-icon{
+
+.social-icon {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.social-icon a{
+
+.social-icon a {
   text-decoration: none;
   padding: 15px 20px;
   font-size: 1.25rem;
 }
-.policy ul{
+
+.policy ul {
   display: flex;
   margin-bottom: 20px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.policy ul a{
+
+.policy ul a {
   text-decoration: none;
 }
-.policy ul a li{
+
+.policy ul a li {
   list-style: none;
   padding: 15px 20px;
 }
+
 /* footer style end */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* responsive for mobile device */
@@ -587,61 +582,21 @@ footer {
     padding: 10px 20px;
     font-size: 12px;
   }
-  footer{
+
+  footer {
     padding: 50px 10px;
   }
-  footer p{
+
+  footer p {
     font-size: 12px;
   }
-  .game-card-section{
+
+  .game-card-section {
     gap: 10px;
   }
 
 }
 
-/* responsive for medium device
-@media screen and (min-width: 576px) and (max-width: 768px) {
-  .container {
-    padding: 10px;
-  }
-  .btn-primary,.btn-secondary{
-    padding: 15px 25px;
-  }
-  .text-title{
-    font-size: 2.5rem;
-    text-align: center;
-  }
-  nav {
-    flex-direction: column;
-    padding: 10px 0;
-  }
-  .logo {
-    margin-bottom: 20px;
-  }
-  nav ul {
-    flex-direction: column;
-  }
-  nav ul a {
-    margin-bottom: 20px;
-  }
-  .social {
-    margin: 0 10px;
-  }
-  .banner {
-    flex-direction: column-reverse;
-    margin-top: 50px;
-  }
-  .banner-img {
-    margin-bottom: 30px;
-  }
-  .gamer-section{
-    flex-direction: column;
-  }
-  .gamer-content{
-    text-align: center;
-  }
-
-} */
 /* responsive for tablet device */
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .container {
